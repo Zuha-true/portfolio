@@ -1,0 +1,153 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f6f5;  /* Soft pastel beige background */
+    color: #444;  /* Dark gray text for readability */
+}
+
+/* Header / Navbar */
+header {
+    background-color: #b6d7a8;  /* Soft pastel green */
+    padding: 1rem 0;
+}
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;  /* White background for this section */
+    padding: 50px 0;
+    text-align: center;
+}
+#about h1 {
+    font-size: 2.5rem;
+    color: #6fa3e0;  /* Soft pastel blue */
+}
+#about p {
+    font-size: 1.2rem;
+    color: #666;  /* Soft gray for description text */
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 0;
+    background-color: #f4e1d2;  /* Light pastel peach background */
+}
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #6fa3e0;  /* Soft pastel blue */
+}
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    border-radius: 10px;
+}
+.skill h3 {
+    color: #b6d7a8;  /* Soft pastel green */
+    font-size: 1.5rem;
+}
+.skill ul {
+    list-style-type: none;
+}
+.skill ul li {
+    margin-bottom: 10px;
+    color: #444;  /* Darker text for list items */
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 0;
+    background-color: #e7d8f3;  /* Light pastel purple background */
+}
+#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #6fa3e0;  /* Soft pastel blue */
+}
+.projects-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.project-card h3 {
+    font-size: 1.5rem;
+    color: #b6d7a8;  /* Soft pastel green */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;  /* White background */
+    padding: 50px 0;
+}
+#contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #6fa3e0;  /* Soft pastel blue */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;  /* Light pastel gray for form fields */
+}
+form button {
+    padding: 10px 20px;
+    background-color: #f9a3d1;  /* Soft pastel pink for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #f6899d;  /* Slightly darker pink on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #b6d7a8;  /* Soft pastel green */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
